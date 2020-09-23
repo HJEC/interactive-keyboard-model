@@ -1,0 +1,9 @@
+{
+  "name": "akey_test",
+  "version": "1.0.0",
+  "description": "Blender model importing practice",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Henry Crookes",
+  "license": "ISC"
+}
