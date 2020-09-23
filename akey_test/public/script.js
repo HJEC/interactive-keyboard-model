@@ -54,9 +54,11 @@ var animate = function() {
 };
 
 var render = function() {
-  camera.lookAt(scene.position);
-  renderer.render(scene, camera);
-  key.rotation.z += 0.001;
+  if (key) {
+    camera.lookAt(scene.position);
+    renderer.render(scene, camera);
+    key.rotation.z += 0.001;
+  }
 };
 
 document.addEventListener("keydown", onDocumentkeyDown, false);
